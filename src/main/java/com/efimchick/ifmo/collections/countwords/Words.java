@@ -39,7 +39,8 @@ public class Words {
     }
 
     static int compareMyString(String s1, String s2) {
-        return s1.compareTo(s2);
+        int i = s1.compareTo(s2);
+        return i;
     }
 
     public String countWords(List<String> lines) {
